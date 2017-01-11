@@ -16,9 +16,13 @@
             <%= render "common/flashes" %>
             <div class="row">
                 <div class="col-md-2">
-                    <ul class="nav nav-pills nav-stacked" style="max-width: 300px; padding-top:20px;">
-                        <li class="active"><%= link_to("Jobs", admin_jobs_path ) %>
+                    <ul class="nav nav-pills nav-stacked" style="max-width: 200px; padding-top:20px;">
+                        <li class="active"><%= link_to("Admin Jobs", admin_jobs_path ) %>
                         </li>
+                        <ul class="nav nav-pills nav-stacked" style="max-width: 200px; padding-top:20px;">
+                            <li class="active"><%= link_to("User Jobs", jobs_path ) %>
+                            </li>
+
 
                     </ul>
                 </div>

@@ -17,6 +17,13 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "font-awesome";
+
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+     width: 70%;
+     margin: auto;
+ }
+ 
  .jumbotron {
   background-image:url('http://y.photo.qq.com/img?s=n0m7YMg0L&l=y.jpg');
   background-repeat: no-repeat;
